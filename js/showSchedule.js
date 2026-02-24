@@ -19,44 +19,45 @@ export function showSchedule() {
 
   // ✅ 날짜를 day별로 분리
   const dates = {
-    day1: "8/14(목)",
-    day2: "8/15(금)",
-    day3: "8/16(토)"
+    day1: "2/26(목)",
+    day2: "2/27(금)",
+    day3: "2/28(토)"
   };
 
   const scheduleData = {
     day1: [
-      { time: "14:00–14:30", title: "접수" },
-      { time: "14:30–17:00", title: "특강 1", note: "김지연 약사", type: "special" },
-      { time: "17:00–18:30", title: "저녁식사" },
-      { time: "18:30–21:00", title: "특강 2", note: "안환균 목사", type: "special" },
-      { time: "21:00–21:10", title: "OT" },
-      { time: "21:10–21:30", title: "쉬는 시간" },
-      { time: "21:30–23:00", title: "찬양의 밤" },
+      { time: "15:00–15:30", title: "접수" },
+      { time: "15:30–16:00", title: "강의 전 찬양" },
+      { time: "16:00–17:30", title: "특강 1", note: "김영래 목사", type: "special" },
+      { time: "17:30–18:00", title: "강의 후 기도회" },
+      { time: "18:00–19:30", title: "저녁식사", note: "조별 모임" },
+      { time: "19:30–22:00", title: "목요 기도회" },
+      { time: "22:00–23:00", title: "OT & 찬양의 밤" },
       { time: "23:00~",       title: "취침" }
     ],
     day2: [
-      { time: "05:00–06:00", title: "새벽 기도" },
-      { time: "06:00–07:00", title: "아침 미션" },
-      { time: "07:00–09:00", title: "세면 및 아침 식사" },
-      { time: "09:00–11:00", title: "활동 1" },
-      { time: "11:00–12:30", title: "개인 정비 시간" },
-      { time: "12:30–13:30", title: "점심 식사", note: "조별 모임" },
-      { time: "13:30–14:30", title: "활동 2" },
-      { time: "14:30–17:00", title: "강의 1", type: "lecture" },
-      { time: "17:00–19:30", title: "저녁 식사", note: "조별 모임" },
+      { time: "05:00–06:30", title: "새벽 기도" },
+      { time: "06:30–08:30", title: "세면 및 아침 식사" },
+      { time: "08:30–11:30", title: "성경통독" },
+      { time: "11:30–13:30", title: "점심 식사", note: "조별 모임" },
+      { time: "13:30–15:30", title: "AI 전도 컨텐츠 제작" },
+      { time: "15:30–16:00", title: "강의 전 찬양" },
+      { time: "16:00–17:30", title: "강의", type: "lecture" },
+      { time: "17:30–18:00", title: "강의 후 기도회" },
+      { time: "18:00–19:30", title: "저녁 식사", note: "조별 모임" },
       { time: "19:30–22:00", title: "금요 기도회" },
-      { time: "22:00–23:30", title: "찬양의 밤" },
-      { time: "23:30~",       title: "취침" }
+      { time: "22:00–23:00", title: "찬양의 밤" },
+      { time: "23:00~",       title: "취침" }
     ],
     day3: [
-      { time: "05:00–06:00", title: "새벽 기도" },
-      { time: "06:00–07:00", title: "아침 미션" },
-      { time: "07:00–09:00", title: "세면 및 아침 식사" },
-      { time: "09:00–11:00", title: "레크레이션" },
-      { time: "11:00–13:30", title: "강의 2", type: "lecture" },
-      { time: "13:30–14:00", title: "청소" },
-      { time: "14:00–",       title: "점심 식사", note: "조별 모임" }
+      { time: "05:00–06:30", title: "새벽 기도" },
+      { time: "06:30–08:30", title: "세면 및 아침 식사" },
+      { time: "08:30–10:00", title: "성경통독" },
+      { time: "10:00–10:30", title: "강의 전 찬양" },
+      { time: "10:30–12:00", title: "특강 2", note: "김요환 목사", type: "special" },
+      { time: "12:00–12:30", title: "결단문 및 단체사진" },
+      { time: "12:30–14:00", title: "점심 식사" },
+      { time: "14:00–",       title: "청소" }
     ]
   };
 

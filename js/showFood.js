@@ -6,7 +6,7 @@ export function showFood() {
 
   const foodData = {
     day1: {
-      date: "8월 14일 (목)",
+      date: "2월 26일 (목)",
       breakfast: {
         menu: [""],
         wash: ""
@@ -16,37 +16,37 @@ export function showFood() {
         wash: ""
       },
       dinner: {
-        menu: ["닭갈비", "콩나물 국", "양파, 오이무침", "김치", "단무지", "요구르트"],
-        wash: "7조"
+        menu: ["제육", "고구마 맛탕", "된장국", "쌈", "과일"],
+        wash: "미정"
       }
     },
     day2: {
-      date: "8월 15일 (금)",
+      date: "2월 27일 (금)",
       breakfast: {
-        menu: ["시리얼/우유"],
+        menu: ["미역국", "소시지", "김치"],
         wash: "자율"
       },
       lunch: {
-        menu: ["햄김치볶음밥", "계란후라이", "유부어묵탕", "단무지", "사과"],
-        wash: "8조"
+        menu: ["김치볶음밥", "계란프라이", "오뎅국", "과일"],
+        wash: "미정"
       },
       dinner: {
-        menu: ["콩불고기", "된장국", "귤"],
-        wash: "1조"
+        menu: ["찜닭", "김치전", "단무지", "콩나물국", "요구르트", "과일"],
+        wash: "미정"
       }
     },
     day3: {
-      date: "8월 16일 (토)",
+      date: "2월 28일 (토)",
       breakfast: {
-        menu: ["시리얼/우유"],
+        menu: ["빵식"],
         wash: "자율"
       },
       lunch: {
-        menu: ["돈까스", "냉모밀(와사비)", "단무지", "양배추샐러드", "판젤리"],
-        wash: "4조"
+        menu: ["떡만둣국", "김치", "밥", "귤"],
+        wash: "미정"
       },
       dinner: {
-        menu: ["내년에 만나요~"],
+        menu: ["하계에 만나요~!"],
         wash: ""
       }
     }
