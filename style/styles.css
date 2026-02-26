@@ -89,15 +89,6 @@ h3 { color: var(--color-text-muted); }
 .card-title { color: var(--color-text-main); }
 .emp { font-size: 1.8rem; color: var(--color-text-strong); }
 
-#typing-text {
-  white-space: pre-line;
-  display: inline-block;
-  color: var(--color-bg-main-op);6
-  min-height: 4.5em;
-  line-height: 1.5em;
-  min-width: 10em;
-}
-
 #nameInput { width: 93%; }
 
 /* Header */

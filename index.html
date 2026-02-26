@@ -9,7 +9,7 @@
   <!-- Open Graph 메타 태그 -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="선한 일에 준비된 청년 : 안디옥 대학청년 동계수련회" />
-  <meta property="og:description" content="2026-02/26~28 | 구미안디옥교회" />
+  <meta property="og:description" content="2026.02.26~28 | 구미안디옥교회" />
   <meta property="og:image" content="https://abide-in-my-love.netlify.app/img/meta.png" />
   <meta property="og:url" content="https://abide-in-my-love.netlify.app/" />
   <meta name="description" content="2026 안디옥교회 대학청년 동계수련회 안내 : 조, 숙소, 일정, 식단, 응급연락망 등 전체 확인 가능." />
@@ -17,14 +17,14 @@
 
 <body>
   <!-- 오른쪽 상단 고정 수정 버튼 -->
-  <button id="editRequestBtn" class="floating-btn top-right-btn">수정 요청</button>
+  <!-- <button id="editRequestBtn" class="floating-btn top-right-btn">수정 요청</button> -->
 
   <div id="loading" style="text-align:center; margin-top: 100px;">
     <img src="img/loading-spinner.gif" width="60" alt="로딩 중..."><br>
     <p>로딩 중입니다...</p>
   </div>
 
-<div id="editModal" class="modal">
+<!-- <div id="editModal" class="modal">
   <div class="modal-content">
     <span class="close-btn" id="closeModal">&times;</span>
     <p class="example-text">
@@ -35,7 +35,7 @@
       - 기타 잘못된 내용을 알려주세요.
     </p>
     
-    <!-- ✅ 이름 입력 필드 추가 -->
+    //✅ 이름 입력 필드 추가
     <input type="text" id="editName" placeholder="이름을 입력하세요" style="width:90%; padding:10px; margin-bottom:10px;"/>
 
     <textarea id="editContent" rows="6" placeholder="수정할 내용을 입력하세요"></textarea>
@@ -43,17 +43,11 @@
     <button id="submitEditBtn" onclick="submitEditRequest()">제출</button>
     <p id="editMsg" style="margin-top:10px;"></p>
   </div>
-</div>
+</div> -->
 
 
 
   <div id="app" style="display:none;">
-    <header id="header">
-      <div class="header-overlay">
-        <p id="typing-text"></p>
-      </div>
-    </header>
-
     <div class="grid-container">
       <h3>내 정보 찾기</h3>
 
@@ -79,13 +73,13 @@
       <button id="grd6" class="grid-item" onclick="appHandlers.showSchedule()">일정 📅</button>
       <button id="grd7" class="grid-item" onclick="appHandlers.showFood()">식단표 🍲</button>
       <button id="grd8" class="grid-item" onclick="appHandlers.showResolution()">결단문 ✍️</button>
-      <button id="grd9" class="grid-item" onclick="appHandlers.showWashClean()">청소&설거지 🧽</button>
+      <!-- <button id="grd9" class="grid-item" onclick="appHandlers.showWashClean()">청소&설거지 🧽</button> -->
       <!-- 책자 PDF 다운로드 버튼 -->
-      <button id="grd10" class="grid-item">
+      <!-- <button id="grd10" class="grid-item">
         <a style="color: rgb(78, 59, 36);" href="https://drive.google.com/drive/folders/1H4UGzQP2060NrtabXhek86aSSfLtLC8e?usp=sharing" download>
           책자 PDF 다운받기 📄
         </a>
-      </button>
+      </button> -->
 
 
       <!-- <button id="grd11" class="grid-item" onclick="appHandlers.showLinktree()">안디옥 소셜 네트워크 ✍️</button> -->
@@ -136,7 +130,7 @@
   import { initModeToggle } from "./js/utils/mode-change.js";
   initModeToggle();
 </script>
-<script type="module">
+<!-- <script type="module">
   import { db } from './js/firebase-config.js';
   import { collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
@@ -174,4 +168,4 @@
       msg.style.color = "red";
     }
   };
-</script>
+</script> -->
